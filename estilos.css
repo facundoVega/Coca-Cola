@@ -13,6 +13,11 @@ html, body
 .navbar
 {
     background: black;  
+    position: absolute;
+    top: 0;
+    z-index: 300;
+    width: 100%;
+    
    
 }
 
@@ -33,7 +38,10 @@ html, body
     transition:color .2s;
  
 }
-
+.slide
+{
+    margin-top: 77px;
+}
 .hamburguesa:hover
 {
     color:red!important;
